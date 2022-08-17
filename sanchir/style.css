@@ -1,133 +1,260 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-    padding: 1%;
-    width: 100vw;
-    height: 300vh;
-    background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 230vh;
+  background-color: burlywood;
 }
 .text {
-    font-family: fantasy;
-    background-color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 25%;
-   border-left: 4px solid;
-   border-left-style:double;
-   border-bottom: 4px solid;
-   border-bottom-style:double;
-   border-top: 4px solid;
-   border-top-style: double;
-    height: 50vh;
+    transition: 0.2s;
+  font-family: fantasy;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  border-left: 7px solid;
+  border-bottom-left-radius: 50px;
+  border-left-style: double;
+  border-bottom: 7px solid;
+  border-bottom-style: double;
+  border-top: 7px solid;
+  border-top-style: double;
+  height: 50vh;
 }
 .pic {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    height: 50vh;
-    border-bottom: 4px solid;
-    border-bottom-style:double;
-    border-top: 4px solid;
-   border-top-style: double;
-   border-right: 4px solid;
-   border-right-style: double;
+    transition: 0.2s;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50vh;
+  border-bottom: 7px solid;
+  border-bottom-style: double;
+  border-top: 7px solid;
+  border-top-style: double;
+  border-right: 7px solid;
+  border-right-style: double;
+  border-top-right-radius: 50px;
 }
 .picc {
-    overflow: hidden;
-    border: 3px solid hidden;
-    border-radius: 2%;
-    width: 65%;
-    height: 75%;
-    box-shadow: 30px 30px 5px 1px;
+  
+  background-image: url(https://64.media.tumblr.com/c97f1484a86658fa7ddaddf09dccd26a/82bd435c18a608a0-a8/s1280x1920/040a9e6c5a3ce620c2edb5f3e7cab1a1dba08337.png);
+  background-size: 120% 100%;
+  overflow: hidden;
+  border: 3px solid hidden;
+  border-radius: 2%;
+  border: 3px solid;
+  width: 65%;
+  height: 75%;
+  box-shadow: 30px 30px 5px 1px;
 }
 .tao {
-    width: 100%;
-    height: 130%;
+  width: 130%;
+  height: 100%;
+  opacity: 0;
 }
 .texxt {
-    border: 3px solid hidden;
+  border: 3px solid hidden;
 }
 .slect {
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-duration: 2s;
- animation-name: slect;
- text-decoration: none;
- color: burlywood;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-name: slect;
+  text-decoration: none;
+  color: burlywood;
 }
 .kanji {
-    border: 3px solid hidden;
-    width: 50%;
-    filter: hue-rotate(134deg);
+  border: 3px solid hidden;
+  width: 50%;
+  filter: hue-rotate(134deg);
 }
 .container {
-
-    display: flex;
-    width: 100%;
+  margin: 1%;
+  display: flex;
+  width: 50%;
+  
 }
 @keyframes slect {
-   0% {
+  0% {
     color: burlywood;
-   }
-   50% {
+  }
+  50% {
     color: black;
-   }
-   100% {
+  }
+  100% {
     color: burlywood;
-   }
+  }
 }
 .girl {
-    position: absolute;
-    align-self: flex-end;
-    border: 3px solid hidden;
-    height: 50%;
-    width: 40%;
+  position: absolute;
+  align-self: flex-end;
+  border: 3px solid hidden;
+  height: 50%;
+  width: 40%;
 }
 .luck {
-    align-self: flex-start;
-    width: 90%;
-    height: 119%;
+  align-self: flex-start;
+  width: 95%;
+  height: 127%;
 }
 .skills {
-    align-self: flex-end;
-    margin: 2.4%;
-    border: 4px solid;
-    border-style: double;
-    background-color: white;
-    width: 50%;
-    height: 13%;
-    text-align: center;
-    font-size: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: -5%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  align-self: flex-end;
+  margin: 2.4%;
+  border: 7px solid;
+  border-style: double;
+  background-color: white;
+  width: 50%;
+  height: 20%;
+  text-align: center;
+  font-size: 20px;
 }
 .tech {
-    color: burlywood;
-    text-decoration: none;
-    font-size: 40px;
-    font-family: fantasy;
+  color: burlywood;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: fantasy;
 }
 h1 {
-    font-family: fantasy;
+  font-family: fantasy;
 }
 .logos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  height: 40%;
+  width: 100%;
 }
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .js {
-    width: 11%;
+    transition: 0.2s;
+    position: relative;
+  width: 12%;
+  height: 80%;
+}
+.js:hover {
+    width: 15%;
+    height: 85%;
 }
 .html {
-    width: 11%;
+    transition: 0.2s;
+    position: relative;
+  width: 12%;
+  height: 80%;
+}
+.html:hover {
+    width: 15%;
+    height: 85%;
 }
 .css {
-    width: 11%;
+    transition: 0.2s;
+    position: relative;
+    height: 80%;
+  width: 12%;
+}
+.css:hover {
+    width: 15%;
+    height: 85%;
+}
+.contacts {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  align-self: center;
+  width: 60%;
+  height: 22%;
+  border: 7px solid;
+  border-style: double;
+  background-color: white;
+}
+.button {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin: 2%;
+  margin-bottom: 7.2%;
+  gap: 10%;
+  width: 50%;
+  height: 100%;
+}
+.image2 {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 100%;
+}
+.inputs {
+  gap: 15%;
+  display: flex;
+  height: 15%;
+}
+.button p {
+  font-family: fantasy;
+  font-size: 50px;
+}
+.inputss {
+  border: 1px solid;
+
+  padding-left: 5%;
+  border-radius: 50px;
+  width: 75%;
+  height: 200%;
+}
+.description {
+  display: flex;
+  border: 1px solid;
+  padding: 5%;
+  border-radius: 25px;
+  width: 89%;
+  height: 75%;
+}
+button {
+  cursor: pointer;
+  border: 1px solid;
+  color: white;
+  background-color: burlywood;
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
+}
+.gim1 {
+  width: 110%;
+  height: 100%;
+}
+.footer {
+    border-top: 5px solid;
+    border-top-style:dashed;
+    margin-top: 20%;
+  width: 100%;
+  height: 13%;
+  background-color: rgb(138, 115, 85);
+}
+.container:hover > div{
+    background-color: rgba(255, 231, 201, 0.665);
+}
+.picc:hover  > .tao{
+    opacity: 1;
+    transition: 0.5s
+}
+.smolgorl {
+    align-self: flex-start;
+    position: absolute;
+    margin-top: 81%;
 }
