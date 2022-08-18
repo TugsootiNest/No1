@@ -5,11 +5,11 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 230vh;
-  background-color: burlywood;
+  height: 250vh;
+  background-color: pink;
 }
 .text {
-    transition: 0.2s;
+  transition: 0.2s;
   font-family: fantasy;
   background-color: white;
   display: flex;
@@ -26,7 +26,7 @@ body {
   height: 50vh;
 }
 .pic {
-    transition: 0.2s;
+  transition: 0.2s;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -42,7 +42,6 @@ body {
   border-top-right-radius: 50px;
 }
 .picc {
-  
   background-image: url(https://64.media.tumblr.com/c97f1484a86658fa7ddaddf09dccd26a/82bd435c18a608a0-a8/s1280x1920/040a9e6c5a3ce620c2edb5f3e7cab1a1dba08337.png);
   background-size: 120% 100%;
   overflow: hidden;
@@ -54,7 +53,8 @@ body {
   box-shadow: 30px 30px 5px 1px;
 }
 .tao {
-  width: 130%;
+  transition: 0.3s;
+  width: 120%;
   height: 100%;
   opacity: 0;
 }
@@ -64,10 +64,10 @@ body {
 .slect {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-name: slect;
   text-decoration: none;
-  color: burlywood;
+  color: pink;
 }
 .kanji {
   border: 3px solid hidden;
@@ -78,17 +78,16 @@ body {
   margin: 1%;
   display: flex;
   width: 50%;
-  
 }
 @keyframes slect {
   0% {
-    color: burlywood;
+    color: pink;
   }
   50% {
     color: black;
   }
   100% {
-    color: burlywood;
+    color: pink;
   }
 }
 .girl {
@@ -100,16 +99,17 @@ body {
 }
 .luck {
   align-self: flex-start;
-  width: 95%;
-  height: 127%;
+  width: 97%;
+  height: 129%;
 }
 .skills {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: -5%;
+  transition: 0.3s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: -5%;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   align-self: flex-end;
@@ -123,10 +123,25 @@ body {
   font-size: 20px;
 }
 .tech {
-  color: burlywood;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-name: tech;
+  color: pink;
   text-decoration: none;
   font-size: 40px;
   font-family: fantasy;
+}
+@keyframes tech {
+  0% {
+    color: pink;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: pink;
+  }
 }
 h1 {
   font-family: fantasy;
@@ -144,36 +159,37 @@ img {
   height: 100%;
 }
 .js {
-    transition: 0.2s;
-    position: relative;
+  transition: 0.2s;
+  position: relative;
   width: 12%;
   height: 80%;
 }
 .js:hover {
-    width: 15%;
-    height: 85%;
+  width: 15%;
+  height: 93%;
 }
 .html {
-    transition: 0.2s;
-    position: relative;
+  transition: 0.2s;
+  position: relative;
   width: 12%;
   height: 80%;
 }
 .html:hover {
-    width: 15%;
-    height: 85%;
+  width: 15%;
+  height: 93%;
 }
 .css {
-    transition: 0.2s;
-    position: relative;
-    height: 80%;
+  transition: 0.2s;
+  position: relative;
+  height: 80%;
   width: 12%;
 }
 .css:hover {
-    width: 15%;
-    height: 85%;
+  width: 15%;
+  height: 93%;
 }
 .contacts {
+  margin-bottom: 5%;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   display: flex;
@@ -229,7 +245,7 @@ button {
   cursor: pointer;
   border: 1px solid;
   color: white;
-  background-color: burlywood;
+  background-color: pink;
   width: 50%;
   height: 50%;
   border-radius: 50px;
@@ -238,23 +254,132 @@ button {
   width: 110%;
   height: 100%;
 }
-.footer {
-    border-top: 5px solid;
-    border-top-style:dashed;
-    margin-top: 20%;
+/* .footer {
+  border-top: 5px solid;
+  border-top-style: dashed;
+  margin-top: 99%;
+  position: absolute;
   width: 100%;
-  height: 13%;
+  height: 25%;
   background-color: rgb(138, 115, 85);
+} */
+.container:hover > div {
+  background-color: rgba(255, 231, 201, 0.665);
 }
-.container:hover > div{
-    background-color: rgba(255, 231, 201, 0.665);
+.picc:hover > .tao {
+  opacity: 1;
+  transition: 0.3ss;
+  transition-timing-function: ease-in-out;
 }
-.picc:hover  > .tao{
-    opacity: 1;
-    transition: 0.5s
+/* .smolgorl {
+  align-self: flex-start;
+  position: absolute;
+  margin-top: 74.5%;
+  z-index: 1;
+} */
+.skills:hover {
+  background-color: rgb(250, 226, 194);
 }
-.smolgorl {
-    align-self: flex-start;
-    position: absolute;
-    margin-top: 81%;
+.portfolio {
+  position: relative;
+  margin: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  row-gap: 1%;
+  width: 100%;
+  height: 34%;
+  background-color: white;
+}
+.trans1 {
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+  height: 70%;
+  width: 15%;
+}
+.trans2 {
+  position: relative;
+  border-radius: 10px;
+  height: 70%;
+  width: 15%;
+}
+.trans3 {
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+  height: 70%;
+  width: 15%;
+}
+.portfolio:hover > .trans1 {
+  transform: translateY(-12.3%);
+}
+.portfolio:hover > .trans3 {
+  transform: translateY(12.3%);
+}
+.back1 {
+  z-index: 2;
+  transition: 0.3s;
+}
+.back1:hover {
+  transform: translate(-20px, -20px);
+  box-shadow: 9px 10px 0px 1px rgb(245, 101, 245);
+}
+.transitiontext {
+  align-self: flex-start;
+  font-family: monospace;
+  animation-name: transition;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  border: 3px solid;
+  padding: 0.5%;
+}
+@keyframes transition {
+  0% {
+    color: black;
+  }
+  25% {
+    color: pink;
+  }
+  50% {
+    color: darkorchid;
+  }
+  75% {
+    color: purple;
+  }
+}
+.bg1 {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+}
+.back2 {
+  position: absolute;
+  transition: 0.3s;
+  z-index: 1;
+}
+.infront {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 50px;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  z-index: 2;
+}
+.infront:hover {
+  box-shadow: 0px 0px 50px 10px pink inset ;
+  opacity: 1;
+  color: pink;
 }
