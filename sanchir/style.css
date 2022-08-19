@@ -1,0 +1,425 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 250vh;
+  background-color: pink;
+}
+.text {
+  transition: 0.2s;
+  font-family: monospace;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  border-left: 7px solid;
+  border-bottom-left-radius: 50px;
+  border-left-style: double;
+  border-bottom: 7px solid;
+  border-bottom-style: double;
+  border-top: 7px solid;
+  border-top-style: double;
+  height: 50vh;
+}
+.pic {
+  transition: 0.2s;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50vh;
+  border-bottom: 7px solid;
+  border-bottom-style: double;
+  border-top: 7px solid;
+  border-top-style: double;
+  border-right: 7px solid;
+  border-right-style: double;
+  border-top-right-radius: 50px;
+}
+.picc {
+  background-image: url(https://64.media.tumblr.com/c97f1484a86658fa7ddaddf09dccd26a/82bd435c18a608a0-a8/s1280x1920/040a9e6c5a3ce620c2edb5f3e7cab1a1dba08337.png);
+  background-size: 120% 100%;
+  overflow: hidden;
+  border: 3px solid hidden;
+  border-radius: 2%;
+  border: 3px solid;
+  width: 65%;
+  height: 75%;
+  box-shadow: 30px 30px 5px 1px;
+}
+.tao {
+  transition: 0.3s;
+  width: 120%;
+  height: 100%;
+  opacity: 0;
+}
+.texxt {
+  border: 3px solid hidden;
+}
+.slect {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-name: slect;
+  text-decoration: none;
+  color: pink;
+}
+.kanji {
+  border: 3px solid hidden;
+  width: 50%;
+  filter: hue-rotate(134deg);
+}
+.container {
+  margin: 1%;
+  display: flex;
+  width: 50%;
+}
+@keyframes slect {
+  0% {
+    color: pink;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: pink;
+  }
+}
+.girl {
+  position: absolute;
+  align-self: flex-end;
+  border: 3px solid hidden;
+  height: 50%;
+  width: 40%;
+}
+.luck {
+  align-self: flex-start;
+  width: 97%;
+  height: 129%;
+}
+.skills {
+  transition: 0.3s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: -5%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  align-self: flex-end;
+  margin: 2.4%;
+  border: 7px solid;
+  border-style: double;
+  background-color: white;
+  width: 50%;
+  height: 20%;
+  text-align: center;
+  font-size: 20px;
+}
+.tech {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-name: tech;
+  color: pink;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: monospace;
+}
+@keyframes tech {
+  0% {
+    color: pink;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: pink;
+  }
+}
+h1 {
+  font-family: monospace;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  height: 40%;
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.js {
+  transition: 0.2s;
+  position: relative;
+  width: 12%;
+  height: 80%;
+}
+.js:hover {
+  width: 15%;
+  height: 93%;
+}
+.html {
+  transition: 0.2s;
+  position: relative;
+  width: 12%;
+  height: 80%;
+}
+.html:hover {
+  width: 15%;
+  height: 93%;
+}
+.css {
+  transition: 0.2s;
+  position: relative;
+  height: 80%;
+  width: 12%;
+}
+.css:hover {
+  width: 15%;
+  height: 93%;
+}
+.contacts {
+  margin-bottom: 5%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  align-self: center;
+  width: 60%;
+  height: 22%;
+  border: 7px solid;
+  border-style: double;
+  background-color: white;
+}
+.button {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin: 2%;
+  margin-bottom: 7.2%;
+  gap: 10%;
+  width: 50%;
+  height: 100%;
+}
+.image2 {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 100%;
+}
+.inputs {
+  gap: 15%;
+  display: flex;
+  height: 15%;
+}
+.button p {
+  font-family: monospace;
+  font-size: 50px;
+}
+.inputss {
+  border: 1px solid;
+
+  padding-left: 5%;
+  border-radius: 50px;
+  width: 75%;
+  height: 200%;
+}
+.description {
+  display: flex;
+  border: 1px solid;
+  padding: 5%;
+  border-radius: 25px;
+  width: 89%;
+  height: 75%;
+}
+button {
+  cursor: pointer;
+  border: 1px solid;
+  color: white;
+  background-color: pink;
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
+}
+.gim1 {
+  width: 110%;
+  height: 100%;
+}
+/* .footer {
+  border-top: 5px solid;
+  border-top-style: dashed;
+  margin-top: 99%;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  background-color: rgb(138, 115, 85);
+} */
+.container:hover > div {
+  background-color: rgba(255, 231, 201, 0.665);
+}
+.picc:hover > .tao {
+  opacity: 1;
+  transition: 0.3ss;
+  transition-timing-function: ease-in-out;
+}
+/* .smolgorl {
+  align-self: flex-start;
+  position: absolute;
+  margin-top: 74.5%;
+  z-index: 1;
+} */
+.skills:hover {
+  background-color: rgb(250, 226, 194);
+}
+.portfolio {
+  position: relative;
+  margin: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  row-gap: 1%;
+  width: 100%;
+  height: 34%;
+  background-color: white;
+}
+.trans1 {
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+  height: 70%;
+  width: 15%;
+}
+.trans2 {
+  position: relative;
+  border-radius: 10px;
+  height: 70%;
+  width: 15%;
+}
+.trans3 {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+  height: 70%;
+  width: 15%;
+}
+.portfolio:hover > .trans1 {
+  transform: translateY(-12.3%);
+}
+.portfolio:hover > .trans3 {
+  transform: translateY(12.3%);
+}
+.back1 {
+  z-index: 2;
+  transition: 0.3s;
+}
+.back1:hover {
+  transform: translate(-20px, -20px);
+  box-shadow: 9px 10px 0px 1px rgb(245, 101, 245);
+}
+.transitiontext {
+  align-self: flex-start;
+  font-family: monospace;
+  animation-name: transition;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  border: 3px solid;
+  padding: 0.5%;
+}
+@keyframes transition {
+  0% {
+    color: black;
+  }
+  25% {
+    color: pink;
+  }
+  50% {
+    color: darkorchid;
+  }
+  75% {
+    color: purple;
+  }
+}
+.bg1 {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+}
+.back2 {
+  position: absolute;
+  transition: 0.3s;
+  z-index: 1;
+}
+.infront {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 50px;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  z-index: 2;
+}
+.infront:hover {
+  box-shadow: 0px 0px 50px 10px pink inset;
+  opacity: 1;
+  color: pink;
+}
+.trans3:hover > .back3{
+height: 105%;
+width: 105%;
+}
+.back3 {
+  position: absolute;
+  transition: 0.3s;
+}
+.infrontbutton {
+  position: relative;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 3px;
+  border: hidden;
+  height: 10%;
+  animation-name: infrontbutton;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  font-family: monospace;
+}
+@keyframes infrontbutton {
+  0% {
+    background-color: black
+  }
+  50% {
+    background-color: purple
+  }
+  100% {
+    background-color: black;
+  }
+}
+.trans3:hover > .infrontbutton {
+  opacity: 1;
+  transform: translateY(-2  0%);
+}
