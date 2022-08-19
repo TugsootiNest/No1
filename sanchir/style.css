@@ -10,7 +10,7 @@ body {
 }
 .text {
   transition: 0.2s;
-  font-family: fantasy;
+  font-family: monospace;
   background-color: white;
   display: flex;
   justify-content: flex-end;
@@ -130,7 +130,7 @@ body {
   color: pink;
   text-decoration: none;
   font-size: 40px;
-  font-family: fantasy;
+  font-family: monospace;
 }
 @keyframes tech {
   0% {
@@ -144,7 +144,7 @@ body {
   }
 }
 h1 {
-  font-family: fantasy;
+  font-family: monospace;
 }
 .logos {
   display: flex;
@@ -222,7 +222,7 @@ img {
   height: 15%;
 }
 .button p {
-  font-family: fantasy;
+  font-family: monospace;
   font-size: 50px;
 }
 .inputss {
@@ -309,6 +309,10 @@ button {
   width: 15%;
 }
 .trans3 {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
   border-radius: 10px;
   position: relative;
   transition: 0.3s;
@@ -379,7 +383,43 @@ button {
   z-index: 2;
 }
 .infront:hover {
-  box-shadow: 0px 0px 50px 10px pink inset ;
+  box-shadow: 0px 0px 50px 10px pink inset;
   opacity: 1;
   color: pink;
+}
+.trans3:hover > .back3{
+height: 105%;
+width: 105%;
+}
+.back3 {
+  position: absolute;
+  transition: 0.3s;
+}
+.infrontbutton {
+  position: relative;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 3px;
+  border: hidden;
+  height: 10%;
+  animation-name: infrontbutton;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  font-family: monospace;
+}
+@keyframes infrontbutton {
+  0% {
+    background-color: black
+  }
+  50% {
+    background-color: purple
+  }
+  100% {
+    background-color: black;
+  }
+}
+.trans3:hover > .infrontbutton {
+  opacity: 1;
+  transform: translateY(-2  0%);
 }
