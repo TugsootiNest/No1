@@ -1,0 +1,535 @@
+.outer {
+  width: 100vw;
+  height: 400vh;
+  background-color: bisque;
+}
+.container {
+  width: 98%;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 25px solid black;
+  border-style: double;
+  background-image: url();
+}
+.background1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition-duration: 300ms;
+}
+.bac1:hover + .background1 {
+  opacity: 1;
+  transition: 300ms;
+}
+.bac1:hover {
+  width: 320px !important;
+  height: 480px !important;
+  transition: 300ms;
+  opacity: 0;
+}
+.bac1:hover ~ .right {
+  opacity: 0;
+  transition: 300ms;
+}
+.red {
+  color: yellow;
+}
+.terr3 {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  margin-bottom: 320px;
+  margin-right: 300px;
+  z-index: 0;
+  opacity: 0;
+  background-image: url("./pp\,840x830-pad\,1000x1000\,f8f8f8.png");
+  background-size: cover;
+  transition-duration: 300ms;
+}
+.terr4 {
+  position: absolute;
+  width: 320px;
+  height: 340px;
+  margin-right: 400px;
+  margin-top: 700px;
+  z-index: 0;
+  opacity: 0;
+  background-image: url("./images\ \(1\).png");
+  background-size: cover;
+  transition-duration: 300ms;
+}
+.terr5 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 835px;
+  margin-left: 180px;
+  z-index: 0;
+  opacity: 0;
+  background-image: url("./Deerclops.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition-duration: 300ms;
+}
+.css:hover + .terr3 {
+  opacity: 1;
+  margin-left: -400px;
+}
+.Java:hover + .terr4 {
+  opacity: 1;
+  margin-bottom: 400px;
+}
+.html:hover + .terr5 {
+  opacity: 1;
+  margin-top: 200px;
+}
+.img1 {
+  width: 570px;
+  height: 670px;
+  margin-left: 850px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  z-index: 0;
+  box-shadow: 12px 12px 5px 5px black;
+}
+.word {
+  font-size: 55px;
+  margin-left: 200px;
+  margin-bottom: 500px;
+  font-family: cursive;
+  z-index: 1;
+  color: white;
+}
+.middle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.css {
+  font-size: 100px;
+  position: absolute;
+  animation-name: switch;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-bottom: 300px;
+  margin-right: 300px;
+  font-family: fantasy;
+  z-index: 2;
+}
+.html {
+  font-size: 100px;
+  position: absolute;
+  animation-name: switch2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-bottom: 1100px;
+  font-family: "Courier New", Courier, monospace;
+  z-index: 2;
+}
+.Java {
+  font-size: 100px;
+  position: absolute;
+  animation-name: switch2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-family: cursive;
+  margin-bottom: -570px;
+  margin-right: 400px;
+  z-index: 2;
+}
+@keyframes switch {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: blueviolet;
+  }
+  100% {
+    color: blue;
+  }
+}
+@keyframes switch2 {
+  0% {
+    color: yellow;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: blueviolet;
+  }
+  100% {
+    color: yellow;
+  }
+}
+.container2 {
+  width: 98%;
+  height: 100vh;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  border: 25px solid red;
+  border-style: double;
+}
+.title {
+  color: whitesmoke;
+  font-family: fantasy;
+  position: absolute;
+}
+.toptitle {
+  font-size: 70px;
+  margin-left: 400px;
+  transition-duration: 300ms;
+}
+.toptitle:hover {
+  font-size: 80px;
+  color: pink;
+  transition: 300ms;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  transition-duration: 300ms;
+}
+.pump {
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 850px;
+  z-index: 2;
+  transition-duration: 300ms;
+}
+.pump:hover {
+  width: 478px;
+  height: 320px;
+}
+.pump:hover ~ .title {
+  color: yellow;
+}
+.bottitle {
+  font-size: 40px;
+}
+.pump:hover + .background {
+  opacity: 1;
+  transition: 300ms;
+}
+.terr {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  margin-top: -340px;
+  z-index: 0;
+  opacity: 0;
+  background-image: url("./h7fdtKS\ \(1\).png");
+  background-size: cover;
+  transition-duration: 300ms;
+}
+.terr1 {
+  position: absolute;
+  width: 450px;
+  height: 400px;
+  margin-top: -200px;
+  z-index: 0;
+  opacity: 0;
+  background-image: url("./EkUkzvwUwAEdPBm.png");
+  background-size: cover;
+  transition-duration: 300ms;
+}
+.terr2 {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  margin-right: 80px;
+  margin-bottom: 120px;
+  z-index: 0;
+  opacity: 0;
+  background-image: url("./dcoza98-7e9731d8-2ba1-4306-8da7-70247716055e\ \(1\)\ \(1\).png");
+  background-size: cover;
+  transition-duration: 300ms;
+}
+.logo:hover + .terr {
+  opacity: 1;
+  margin-right: 400px;
+  transition: 300ms;
+}
+.logo1:hover + .terr1 {
+  opacity: 1;
+  margin-bottom: 380px;
+  transition: 300ms;
+}
+.JScir:hover > .terr2 {
+  opacity: 1;
+  margin-left: 500px;
+  transition: 300ms;
+}
+.bothalf {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "a b c";
+}
+.a {
+  grid-area: a;
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  font-family: cursive;
+}
+.b {
+  grid-area: b;
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  font-family: cursive;
+}
+.c {
+  grid-area: c;
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  font-family: cursive;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  transition-duration: 300ms;
+  z-index: 1;
+}
+.logo1 {
+  width: 200px;
+  height: 200px;
+  transition-duration: 300ms;
+  z-index: 1;
+}
+.logo:hover {
+  width: 220px;
+  height: 220px;
+  transition: 300ms;
+}
+.logo1:hover {
+  width: 220px;
+  height: 220px;
+  transition: 300ms;
+}
+.JScir {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 300ms;
+  z-index: 1;
+}
+.JScir:hover {
+  width: 210px;
+  height: 210px;
+  transition: 300ms;
+}
+.underHC {
+  z-index: 1;
+}
+.JScir:hover > .img8 {
+  width: 135px;
+  height: 140px;
+  transition: 300ms;
+}
+.img8 {
+  width: 125px;
+  height: 130px;
+  transition-duration: 300ms;
+  z-index: 1;
+}
+.outer {
+  width: 100vw;
+  height: 100vh;
+}
+.container3 {
+  width: 98%;
+  height: 100%;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 25px solid blue;
+  border-style: double;
+}
+.grid {
+  width: 70%;
+  height: 70%;
+  background-color: crimson;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+  border-radius: 20px;
+  z-index: 2;
+  transition-duration: 300ms;
+}
+.left2 {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.img3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+.img2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 75px;
+}
+.imgs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 125px;
+}
+.GN {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.right2 {
+  position: relative;
+  bottom: 55px;
+  width: 100%;
+  height: 110%;
+  background-color: coral;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px grey;
+}
+.input1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.in1 {
+  width: 350px;
+  height: 100px;
+  border-radius: 8px;
+  border: 0px;
+  margin-top: -30px;
+  box-shadow: 0px 0px 10px 1px grey;
+  font-size: 30px;
+  margin-left: 15px;
+}
+.in2 {
+  width: 600px;
+  height: 100px;
+  border-radius: 10px;
+  border: 0px;
+  margin-left: 31px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 1px grey;
+  font-size: 30px;
+}
+.in3 {
+  width: 680px;
+  height: 100px;
+  border-radius: 10px;
+  border: 0px;
+  margin-left: 31px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 1px grey;
+  font-size: 30px;
+}
+.in4 {
+  width: 720px;
+  height: 250px;
+  border-radius: 10px;
+  border: 0px;
+  margin-left: 31px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 1px grey;
+  font-size: 30px;
+  display: flex;
+}
+.butt {
+  position: absolute;
+  width: 300px;
+  height: 75px;
+  border-radius: 8px;
+  border: 0px;
+  margin-top: 15px;
+  margin-left: 240px;
+  box-shadow: 0px 0px 10px 1px grey;
+  font-size: 30px;
+  background-color: crimson;
+  transition-duration: 300ms;
+}
+.butt:hover {
+  width: 310px;
+  height: 85px;
+  transition: 300ms;
+}
+.demon {
+  position: absolute;
+  left: 100px;
+  height: 250px;
+  width: 250px;
+  z-index: 4;
+  animation-name: demon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes demon {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 30px);
+  }
+}
+.background3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition-duration: 500ms;
+  display: flex;
+  justify-content: center;
+}
+.demon:hover + .background3 {
+  transition: 500ms;
+  opacity: 1;
+}
+.demon:hover ~ .grid {
+  opacity: 0;
+  transition: 300ms;
+}
