@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 300vh;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+.header {
+    background-color: #59007B;
+    height: 12%;
+
+}
+.main {
+    background-color: #d9efff;
+    height: 35%;
+}
+.middle {
+    background-color: #FFDD99;
+    height: 28%;
+}
+.footer1 {
+    background-color: #D74680;
+    height: 23%;
+}
+.footer2 {
+    background-color: #344B8E;
+    height: 2%;
+}
