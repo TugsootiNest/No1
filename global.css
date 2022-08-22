@@ -15,6 +15,10 @@ body {
   height: 12%;
 }
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   background-color: #d9efff;
   height: 35%;
 }
@@ -60,9 +64,9 @@ hr {
   font-family: 'Poppins', sans-serif;
 }
 h2 {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   position: relative;
-  margin: 0;
+  margin: 1%;
 }
 .buttons {
   transition: 0.2s;
@@ -97,11 +101,12 @@ h2 {
   height: 5%;
   width: 15%;
   border-radius: 2px;
-  box-shadow: 1px 4px 0px 0.5px green;
+  box-shadow: 0px -5px 0px 0.5px green inset;
   background-color: greenyellow;
   border: hidden;
   cursor: pointer;
 }
+<<<<<<< HEAD
 /* footer1 */
 .footer1{
   display: flex;
@@ -159,4 +164,27 @@ hr{
 }
 .text11{
   font-size: 20px;
+=======
+.middleline {
+  position: relative;
+  border-radius: 5px;
+  width: 5%;
+  height: 0.5%;
+  background-color: #BDD1DF 
+}
+.description {
+  text-align: center;
+}
+.teammates {
+  border: 3px solid;
+  height: 60%;
+  width: 100%;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 60%;
+>>>>>>> 724efb34744480da732ce14aa81a2aefa05e1c61
 }
