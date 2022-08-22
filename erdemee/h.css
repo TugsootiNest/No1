@@ -277,22 +277,34 @@ input:checked ~ .secondpage {
   width: 654px;
   height: 50px;
   font-size: 20px;
+  border:none;
+  border-bottom:2px solid white;
+  background-color: transparent;
 }
 .name{
   width: 312px;
   height: 50px;
   font-size: 20px;
+  border:none;
+  border-bottom:2px solid white;
+  background-color: transparent;
 }
 .phonenumber{
   width: 312px;
   height: 50px;
   font-size: 20px;
+  border:none;
+  border-bottom:2px solid white;
+  background-color: transparent;
 
 }
 .subject{
   width: 654px;
   height: 50px;
   font-size: 20px;
+  border:none;
+  border-bottom:2px solid white;
+  background-color: transparent;
 
 }
 .FirstRow{
@@ -303,6 +315,9 @@ input:checked ~ .secondpage {
   width: 654px;
   height: 200px;
   font-size: 20px;
+  border:none;
+  border-bottom:2px solid white;
+  background-color: transparent;
 }
 .submit{
   width: 200px;
