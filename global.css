@@ -106,7 +106,6 @@ h2 {
   border: hidden;
   cursor: pointer;
 }
-<<<<<<< HEAD
 /* footer1 */
 .footer1{
   display: flex;
@@ -132,6 +131,7 @@ hr{
   grid-template-areas: "a b"
   "c d";
   gap: 50px;
+  margin-bottom: 50px;
 }
 .Sancir1{
   grid-area: a;
@@ -140,8 +140,8 @@ hr{
   gap: 30px;
 }
 .sancirp{
- width: 100px ;
- height: 100px;
+ width: 150px ;
+ height: 150px;
  border-radius: 50%;
 }
 .Sancir2{
@@ -164,7 +164,16 @@ hr{
 }
 .text11{
   font-size: 20px;
-=======
+  color: white;
+}
+.text12{
+  color: white;
+  font-size: 30px;
+}
+.text13{
+  color: yellow;
+  font-size: 20px;
+}
 .middleline {
   position: relative;
   border-radius: 5px;
@@ -186,5 +195,4 @@ hr{
   align-items: center;
   height: 80%;
   width: 60%;
->>>>>>> 724efb34744480da732ce14aa81a2aefa05e1c61
 }
