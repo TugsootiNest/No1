@@ -120,6 +120,9 @@ h2 {
   border: 3px solid;
   height: 60%;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+position: relative;
 }
 .maincontainer {
   display: flex;
@@ -127,4 +130,78 @@ h2 {
   align-items: center;
   height: 80%;
   width: 60%;
+}
+.teammates:nth-of-type(1) > img {
+ height:200px ;
+width: 200px;
+border-radius: 50%;
+}
+.teammates:nth-of-type(2) > img {
+  height:200px ;
+ width: 200px;
+ border-radius: 50%;
+ }
+ .teammates:nth-of-type(1) > b:nth-of-type(1) {
+position: absolute;
+top: 220px;
+left: 165px;
+
+ }
+ .teammates:nth-of-type(1) > b:nth-of-type(2) {
+  position: absolute;
+  top: 220px;
+  
+   }
+   .teammates:nth-of-type(1) > b:nth-of-type(3) {
+    position: absolute;
+    top: 220px;
+    right:165px;
+    
+     }
+     .teammates:nth-of-type(2) > b:nth-of-type(1) {
+      position: absolute;
+      top: 220px;
+      
+       }
+       .teammates:nth-of-type(2) > b:nth-of-type(2) {
+        position: absolute;
+        top: 220px;
+        left: 165px;
+        
+         }
+
+.teammates:nth-of-type(1) > 
+         h5:nth-of-type(1) {
+          position: absolute;
+          top: 250px;
+          left: 100px;
+          width: 190px;
+}
+.teammates:nth-of-type(1) > 
+         h5:nth-of-type(2) {
+          position: absolute;
+          top: 250px;
+          left: 490px;
+          width: 190px;
+}
+.teammates:nth-of-type(1) > 
+         h5:nth-of-type(3) {
+          position: absolute;
+          top: 250px;
+          right: 100px;
+          width: 190px;
+}
+.teammates:nth-of-type(2) > 
+         h5:nth-of-type(1) {
+          position: absolute;
+          top: 250px;
+          left: 100px;
+          width: 190px;
+}
+.teammates:nth-of-type(2) > 
+         h5:nth-of-type(2) {
+          position: absolute;
+          top: 250px;
+          left: 500px;
+          width: 190px;
 }
