@@ -129,7 +129,7 @@ body {
   height: 100%;
   width: 100%;
 }
-hr {
+.myhr {
   position: relative;
   background-color: #e5c37f;
   width: 5%;
