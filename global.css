@@ -6,6 +6,83 @@ body {
   width: 100vw;
   height: 300vh;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.upper123 {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+}
+.upperleft123 {
+  width: 35%;
+  height: 100%;
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.word123 {
+  font-size: 75px;
+  font-family: monospace;
+  margin-right: 120px;
+}
+.upperright123 {
+  width: 65%;
+  height: 100%;
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button112 {
+  font-size: 45px;
+  width: 175px;
+  height: 75px;
+  background-color: white;
+  color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: cursive;
+}
+.button212 {
+  font-size: 45px;
+  font-family: cursive;
+}
+.bottom12 {
+  width: 100vw;
+  height: 85vh;
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.word212 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+.button312 {
+  width: 300px;
+  height: 75px;
+  background-color: orange;
+  font-size: 35px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px 1px darkorange;
+  margin-top: 10px;
+  font-family: cursive;
+}
 .container {
   height: 100%;
   width: 100%;
@@ -52,7 +129,7 @@ body {
   height: 100%;
   width: 100%;
 }
-hr {
+.myhr {
   position: relative;
   background-color: #e5c37f;
   width: 5%;
@@ -97,7 +174,6 @@ h2 {
 }
 .ourwork div {
   position: relative;
-    text-align: center;
 }
 .learnmore {
   margin: 2%;
@@ -109,9 +185,73 @@ h2 {
   border: hidden;
   cursor: pointer;
 }
+
+/* footer1 */
+.footer1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.title1{
+  font-size: 50px;
+  color: white;
+}
+hr{
+  height: 0.5%;
+  width: 5%;
+  border-radius: 5px;
+  border: hidden;
+  background-color: white;
+}
+.opinion{
+  color: white;
+  font-size: 20px;
+}
+.quote{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "a b"
+  "c d";
+  gap: 50px;
+}
+.Sancir1{
+  grid-area: a;
+  display: flex;
+  width: 600px;
+  gap: 30px;
+}
+.sancirp{
+ width: 100px ;
+ height: 100px;
+ border-radius: 50%;
+}
+.Sancir2{
+  grid-area: b;
+  display: flex;
+  width: 600px;
+  gap: 30px;
+}
+.Sancir3{
+  grid-area: c;
+  display: flex;
+  width: 600px;
+  gap: 30px;
+}
+.Sancir4{
+  grid-area: d;
+  display: flex;
+  width: 600px;
+  gap: 30px;
+}
+.text11{
+  font-size: 20px;
+}
 .middleline {
   position: relative;
   border-radius: 5px;
+  border: hidden;
   width: 5%;
   height: 0.5%;
   background-color: #BDD1DF 
@@ -133,21 +273,30 @@ h2 {
 }
 .side {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 .gallery {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 .world {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 .port {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 100%;
+}
+.ourwork p {
+  position: relative;
+  border: 3px solid hidden;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: burlywood;
+  width: 25%;
+  right: 10%;
 }
