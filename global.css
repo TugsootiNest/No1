@@ -215,6 +215,7 @@ hr{
   grid-template-areas: "a b"
   "c d";
   gap: 50px;
+  margin-bottom: 50px;
 }
 .Sancir1{
   grid-area: a;
@@ -223,8 +224,8 @@ hr{
   gap: 30px;
 }
 .sancirp{
- width: 100px ;
- height: 100px;
+ width: 150px ;
+ height: 150px;
  border-radius: 50%;
 }
 .Sancir2{
@@ -247,6 +248,15 @@ hr{
 }
 .text11{
   font-size: 20px;
+  color: white;
+}
+.text12{
+  color: white;
+  font-size: 30px;
+}
+.text13{
+  color: yellow;
+  font-size: 20px;
 }
 .middleline {
   position: relative;
@@ -263,6 +273,9 @@ hr{
   border: 3px solid;
   height: 60%;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+position: relative;
 }
 .maincontainer {
   display: flex;
