@@ -139,10 +139,10 @@ hr {
 }
 .title {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   margin: 1%;
 }
@@ -158,21 +158,21 @@ h2 {
   background-color: white;
 }
 .lotsofbuttons {
-    margin: 1%;
+  margin: 1%;
   display: flex;
   justify-content: center;
   gap: 5%;
 }
 .ourwork {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1%;
-    height: 60%;
-    width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1%;
+  height: 60%;
+  width: 40%;
 }
 .ourwork div {
-    border: 3px solid;
+  border: 3px solid;
 }
 .learnmore {
   margin: 2%;
@@ -186,61 +186,71 @@ h2 {
 }
 
 /* footer1 */
-.footer1{
+.footer1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-.title1{
+.title1 {
   font-size: 50px;
   color: white;
 }
-hr{
+hr {
   background-color: white;
 }
-.opinion{
+.opinion {
   color: white;
   font-size: 20px;
 }
-.quote{
+.quote {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "a b"
-  "c d";
+  grid-template-areas:
+    "a b"
+    "c d";
   gap: 50px;
+  margin-bottom: 50px;
 }
-.Sancir1{
+.Sancir1 {
   grid-area: a;
   display: flex;
   width: 600px;
   gap: 30px;
 }
-.sancirp{
- width: 100px ;
- height: 100px;
- border-radius: 50%;
+.sancirp {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
-.Sancir2{
+.Sancir2 {
   grid-area: b;
   display: flex;
   width: 600px;
   gap: 30px;
 }
-.Sancir3{
+.Sancir3 {
   grid-area: c;
   display: flex;
   width: 600px;
   gap: 30px;
 }
-.Sancir4{
+.Sancir4 {
   grid-area: d;
   display: flex;
   width: 600px;
   gap: 30px;
 }
-.text11{
+.text11 {
+  font-size: 20px;
+  color: white;
+}
+.text12 {
+  color: white;
+  font-size: 30px;
+}
+.text13 {
+  color: yellow;
   font-size: 20px;
 }
 .middleline {
@@ -248,7 +258,7 @@ hr{
   border-radius: 5px;
   width: 5%;
   height: 0.5%;
-  background-color: #BDD1DF 
+  background-color: #bdd1df;
 }
 .description {
   text-align: center;
@@ -257,6 +267,9 @@ hr{
   border: 3px solid;
   height: 60%;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
 }
 .maincontainer {
   display: flex;
@@ -264,4 +277,68 @@ hr{
   align-items: center;
   height: 80%;
   width: 60%;
+}
+.teammates:nth-of-type(1) > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.teammates:nth-of-type(2) > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.teammates:nth-of-type(1) > b:nth-of-type(1) {
+  position: absolute;
+  top: 220px;
+  left: 165px;
+}
+.teammates:nth-of-type(1) > b:nth-of-type(2) {
+  position: absolute;
+  top: 220px;
+}
+.teammates:nth-of-type(1) > b:nth-of-type(3) {
+  position: absolute;
+  top: 220px;
+  right: 165px;
+}
+.teammates:nth-of-type(2) > b:nth-of-type(1) {
+  position: absolute;
+  top: 220px;
+}
+.teammates:nth-of-type(2) > b:nth-of-type(2) {
+  position: absolute;
+  top: 220px;
+  left: 165px;
+}
+
+.teammates:nth-of-type(1) > h5:nth-of-type(1) {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  width: 190px;
+}
+.teammates:nth-of-type(1) > h5:nth-of-type(2) {
+  position: absolute;
+  top: 250px;
+  left: 490px;
+  width: 190px;
+}
+.teammates:nth-of-type(1) > h5:nth-of-type(3) {
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  width: 190px;
+}
+.teammates:nth-of-type(2) > h5:nth-of-type(1) {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  width: 190px;
+}
+.teammates:nth-of-type(2) > h5:nth-of-type(2) {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  width: 190px;
 }

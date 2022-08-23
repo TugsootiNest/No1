@@ -1,0 +1,13 @@
+.nest{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(199, 0, 0);
+}
+
+@media (min-width:768px){
+    .nest{
+        width: 400px;
+        height:400px;
+        background-color: rgb(1, 255, 115);
+    }
+}
