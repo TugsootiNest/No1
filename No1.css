@@ -1,0 +1,51 @@
+.myhr {
+  position: relative;
+  background-color: #e5c37f;
+  width: 5%;
+  border: hidden;
+  height: 0.5%;
+  border-radius: 5px;
+}
+.title {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+.buttons {
+  transition: 0.2s;
+  height: 50px;
+  width: 120px;
+  border: hidden;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.171);
+}
+.buttons:hover {
+  background-color: white;
+}
+.lotsofbuttons {
+    margin: 1%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.ourwork {
+  position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10%;
+    height: 50%;
+    width: 40%;
+}
+.ourwork div {
+  position: relative;
+}
+.learnmore {
+  margin: 2%;
+  height: 5%;
+  width: 15%;
+  border-radius: 2px;
+  box-shadow: 0px -5px 0px 0.5px green inset;
+  background-color: greenyellow;
+  border: hidden;
+  cursor: pointer;
+}
