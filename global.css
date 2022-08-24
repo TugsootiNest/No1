@@ -139,10 +139,10 @@ body {
 }
 .title {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   margin: 1%;
 }
@@ -158,19 +158,19 @@ h2 {
   background-color: white;
 }
 .lotsofbuttons {
-    margin: 1%;
+  margin: 1%;
   display: flex;
   justify-content: center;
   gap: 5%;
 }
 .ourwork {
   position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10%;
-    height: 50%;
-    width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10%;
+  height: 50%;
+  width: 40%;
 }
 .ourwork div {
   position: relative;
@@ -187,74 +187,79 @@ h2 {
 }
 
 /* footer1 */
-.footer1{
+.footer1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-.title1{
+.title1 {
   font-size: 50px;
   color: white;
 }
-hr{
+hr {
   height: 0.5%;
   width: 5%;
   border-radius: 5px;
   border: hidden;
   background-color: white;
 }
-.opinion{
+.opinion {
   color: white;
   font-size: 20px;
 }
-.quote{
+.quote {
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "a b"
-  "c d";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    ". a a b b e e ."
+    ". . c c d d . .";
   gap: 50px;
-  margin-bottom: 50px;
 }
-.Sancir1{
+.Sancir1 {
   grid-area: a;
   display: flex;
-  width: 600px;
+  width: 500px;
   gap: 30px;
 }
-.sancirp{
- width: 150px ;
- height: 150px;
- border-radius: 50%;
+.sancirp {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
-.Sancir2{
+.Sancir2 {
   grid-area: b;
   display: flex;
-  width: 600px;
+  width: 500px;
   gap: 30px;
 }
-.Sancir3{
+.Sancir3 {
   grid-area: c;
   display: flex;
-  width: 600px;
+  width: 500px;
   gap: 30px;
 }
-.Sancir4{
+.Sancir4 {
   grid-area: d;
   display: flex;
-  width: 600px;
+  width: 500px;
   gap: 30px;
 }
-.text11{
+.Sancir5 {
+  grid-area: e;
+  display: flex;
+  width: 500px;
+  gap: 30px;
+}
+.text11 {
   font-size: 20px;
   color: white;
 }
-.text12{
+.text12 {
   color: white;
   font-size: 30px;
 }
-.text13{
+.text13 {
   color: yellow;
   font-size: 20px;
 }
@@ -264,7 +269,7 @@ hr{
   border: hidden;
   width: 5%;
   height: 0.5%;
-  background-color: #BDD1DF 
+  background-color: #bdd1df;
 }
 .description {
   text-align: center;
@@ -275,7 +280,7 @@ hr{
   width: 100%;
   display: flex;
   justify-content: space-around;
-position: relative;
+  position: relative;
 }
 .maincontainer {
   display: flex;
