@@ -1,4 +1,4 @@
-.up {
+.up111 {
     width: 100vw;
     height: 20vh;
     background-color: #e7f1f8;
@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
   }
-  .line {
+  .line111 {
     width: 130px;
     height: 4px;
     background-color: #bdd1df;
@@ -16,75 +16,75 @@
     border-radius: 5px;
     margin-top: 50px
   }
-  .bot {
+  .bot111 {
     width: 100vw;
     height: 120vh;
     background-color: #e7f1f8;
     border-top: 30px solid #e7f1f8;
   }
-  .grid {
+  .grid111 {
     width: 100%;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-      ". main1 main2 main3 ."
-      ". footer1 footer2 footer3 .";
+      ". main1111 main2111 main3111 ."
+      ". footer1111 footer2111 footer3111 .";
     gap: 5px;
     margin-top: 30px;
   }
-  .main1 {
-    grid-area: main1;
+  .main1111 {
+    grid-area: main1111;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .main2 {
-    grid-area: main2;
+  .main2111 {
+    grid-area: main2111;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .main3 {
-    grid-area: main3;
+  .main3111 {
+    grid-area: main3111;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .footer1 {
-    grid-area: footer1;
+  .footer1111 {
+    grid-area: footer1111;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .footer2 {
-    grid-area: footer2;
+  .footer2111 {
+    grid-area: footer2111;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .footer3 {
-    grid-area: footer3;
+  .footer3111 {
+    grid-area: footer3111;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .box1 {
+  .box111 {
     width: 225px;
     height: 225px;
     border-radius: 50%;
     margin-top: 10px;
     background-color: bisque;
   }
-  .logos {
+  .logos111 {
     width: 100%;
     height: 10%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
   }
-  .logo {
+  .logo111 {
     width: 35px;
     height: 35px;
     position: absolute;
