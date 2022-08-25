@@ -1,0 +1,339 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.context {
+  width: 30%;
+  height: 100vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  z-index: 200;
+}
+
+.context h1 {
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.area {
+  background: linear-gradient(black 30%, white);
+  width: 100%;
+}
+img {
+  margin-left: 50px;
+  width: 400px;
+  border-radius: 50%;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+article {
+  max-width: 600px;
+  margin: 1em auto;
+  overflow: hidden;
+  position: relative;
+  min-height: 4em;
+}
+
+.example-left {
+  white-space: nowrap;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.example-left {
+  -webkit-animation: mymove 8s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+  animation: mymove 8s linear infinite alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -140px;
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -140px;
+  }
+}
+
+.example-right {
+  white-space: nowrap;
+  position: absolute;
+  top: 2em;
+  opacity: 0.4;
+  text-transform: uppercase;
+}
+
+.example-right {
+  -webkit-animation: urmove 8s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+  animation: urmove 8s linear infinite alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes urmove {
+  from {
+    right: 0;
+  }
+  to {
+    right: -140px;
+  }
+}
+
+@keyframes urmove {
+  from {
+    right: 0;
+  }
+  to {
+    right: -140px;
+  }
+}
+
+@keyframes early {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.early {
+  animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
+
+  animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+}
+.mb {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mb0 {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.My {
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+}
+.My2 {
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+}
+.My3 {
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+}
+.My4 {
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+}
+.g {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 300px;
+}
+.mb1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.mb2 {
+  display: flex;
+  flex-direction: column;
+}
+.mb3 {
+  display: flex;
+  flex-direction: column;
+}
+.mb4 {
+  display: flex;
+  flex-direction: column;
+}
+.area2 {
+  width: 100%;
+  height: 300vh;
+  background: linear-gradient(rgb(255, 255, 255) 30%, rgb(99, 99, 102));
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.p {
+  align-self: center;
+}
+.p2 {
+  align-self: center;
+}
+.p3 {
+  align-self: center;
+}
+.p4 {
+  align-self: center;
+}
+.area2 {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+.hr1 {
+  border-radius: 0%;
+  width: 800px;
+  height: 500px;
+}
+.hr2 {
+  border-radius: 0%;
+  width: 800px;
+  height: 500px;
+}
+.hr3 {
+  border-radius: 0%;
+  width: 800px;
+  height: 500px;
+}
+.lolipop {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 500px;
+}
+.lolipop2 {
+  display: flex;
+  color: grey;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 500px;
+}
+.lolipop3 {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 500px;
+}
+
+.no0 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  transition: 0.2s;
+  z-index: 0;
+  opacity: 0;
+}
+.no2 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  transition: 0.2s;
+  z-index: 0;
+  opacity: 0;
+}
+.no3 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  transition: 0.2s;
+  z-index: 0;
+  opacity: 0;
+}
+.no4 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  transition: 0.2s;
+  z-index: 0;
+  opacity: 0;
+}
+.My:hover ~ .no0 {
+  opacity: 1;
+  transform: translateY(-90%);
+}
+.My2:hover ~ .no2 {
+  opacity: 1;
+  transform: translateY(90%);
+}
+.My3:hover ~ .no3 {
+  opacity: 1;
+  transform: translateY(-90%);
+}
+.My4:hover ~ .no4 {
+  opacity: 1;
+  transform: translateY(90%);
+}
+.bbe {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(99, 99, 102);
+  z-index: -1;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.cont {
+  width: 40%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cont2 {
+  width: 40%;
+  height: 30%;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cont2 > p {
+  font-size: 30px;
+} 
+.asd1{
+  margin-top: 100px;
+  color: black;
+  width: 50%;
+}
